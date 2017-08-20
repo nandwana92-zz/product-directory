@@ -1,0 +1,94 @@
+{
+   "products": [
+      {
+         "id": "39nnmk25f4",
+         "image": "https://image.ibb.co/maOP45/air_conditioning.png",
+         "name": "Air Conditioning",
+         "description": "A washing machine is a machine that washes dirty clothes. It contains a barrel into which the clothes are placed.",
+         "up": 2,
+         "down": 2,
+         "userScore": 1
+      },
+      {
+         "id": "ox3cjktxlg",
+         "image": "https://image.ibb.co/e83fcQ/alarm_clock.png",
+         "name": "Alarm Clock",
+         "description": "A washing machine is a machine that washes dirty clothes. It contains a barrel into which the clothes are placed.",
+         "up": 0,
+         "down": 9,
+         "userScore": 0
+      },
+      {
+         "id": "xlizci4d4j",
+         "image": "https://image.ibb.co/myrcP5/coffee_maker.png",
+         "name": "Coffee Maker",
+         "description": "A washing machine is a machine that washes dirty clothes. It contains a barrel into which the clothes are placed.",
+         "up": 1,
+         "down": 4,
+         "userScore": -1
+      },
+      {
+         "id": "qfzle8ee2a",
+         "image": "https://image.ibb.co/d8wBj5/curler.png",
+         "name": "Curler",
+         "description": "A washing machine is a machine that washes dirty clothes. It contains a barrel into which the clothes are placed.",
+         "up": 1,
+         "down": 4,
+         "userScore": -1
+      },
+      {
+         "id": "1um7tmneo7",
+         "image": "https://image.ibb.co/f5goWk/music_player.png",
+         "name": "Music Player",
+         "description": "A washing machine is a machine that washes dirty clothes. It contains a barrel into which the clothes are placed.",
+         "up": 1,
+         "down": 4,
+         "userScore": -1
+      },
+      {
+         "id": "kaw9whhvin",
+         "image": "https://image.ibb.co/foYDxQ/shaver_1.png",
+         "name": "Shaver",
+         "description": "A washing machine is a machine that washes dirty clothes. It contains a barrel into which the clothes are placed.",
+         "up": 1,
+         "down": 4,
+         "userScore": -1
+      },
+      {
+         "id": "odcf24kub1",
+         "image": "https://image.ibb.co/kUvyWk/toothbrush.png",
+         "name": "Toothbrush",
+         "description": "A washing machine is a machine that washes dirty clothes. It contains a barrel into which the clothes are placed.",
+         "up": 1,
+         "down": 4,
+         "userScore": -1
+      },
+      {
+         "id": "o3j5mnqvxw",
+         "image": "https://image.ibb.co/ngNj45/printer.png",
+         "name": "Printer",
+         "description": "A washing machine is a machine that washes dirty clothes. It contains a barrel into which the clothes are placed.",
+         "up": 1,
+         "down": 4,
+         "userScore": -1
+      },
+      {
+         "id": "acu3qlx8fq",
+         "image": "https://image.ibb.co/c2tDxQ/oven.png",
+         "name": "Oven",
+         "description": "A washing machine is a machine that washes dirty clothes. It contains a barrel into which the clothes are placed.",
+         "up": 1,
+         "down": 4,
+         "userScore": -1
+      },
+      {
+         "id": "a39n2tu9qf",
+         "image": "https://image.ibb.co/bt4aBk/iron.png",
+         "name": "Iron",
+         "description": "A washing machine is a machine that washes dirty clothes. It contains a barrel into which the clothes are placed.",
+         "up": 12,
+         "down": 2,
+         "userScore": 1
+      }
+   ]
+}

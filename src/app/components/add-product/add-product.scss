@@ -1,0 +1,35 @@
+.add-product {
+  @include row;
+  @include center-along;
+  margin-top: 80px;
+
+  &__image {
+    max-width: 160px;
+    margin-left: 100px;
+  }
+
+  form {
+    background-color: #FAFAFA;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  form label {
+    margin: 20px 0;
+    display: inline-block;
+    min-width: 100px;
+  }
+
+  &__submit-btn-container {
+    @include row-reverse;
+    margin-top: 20px;
+  }
+}
+
+.add-product-title {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}

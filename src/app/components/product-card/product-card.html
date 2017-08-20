@@ -1,0 +1,27 @@
+<div class="product-card" ng-class="{'product-card--large': $ctrl.size === 'large'}">
+  <a class="unstyled-anchor product-card__edit-product-btn" ui-sref="editProduct({productId: $ctrl.product.id})">
+    <button type="button" name="button">Edit Product</button>
+  </a>
+  <img class="product-card__image" ng-src="{{$ctrl.product.image || 'https://image.ibb.co/bYFDgk/gallery.png'}}" ng-click="$ctrl.loadProductDetails();">
+  <div class="product-card__popularity-score">
+    ({{$ctrl.product.up}} / {{$ctrl.product.down}})
+  </div>
+  <div class="product-card__popularity">
+    <img src="https://image.ibb.co/koihP5/plus.png" ng-click="$ctrl.updateScore($event, 'up');">
+    <div class="product-card__popularity-meter">
+      <div class="product-card__upvote" ng-style="$ctrl.totalVotes && {'flex-grow': $ctrl.product.up}">
+      </div>
+      <div class="product-card__downvote" ng-style="$ctrl.totalVotes && {'flex-grow': $ctrl.product.down}">
+      </div>
+    </div>
+    <img src="https://image.ibb.co/dj62P5/minus.png" ng-click="$ctrl.updateScore($event, 'down');">
+  </div>
+  <div class="product-card__details">
+    <div class="product-card__name">
+      {{$ctrl.product.name}}
+    </div>
+    <div class="product-card__description">
+      {{$ctrl.product.description}}
+    </div>
+  </div>
+</div>

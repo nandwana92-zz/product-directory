@@ -1,0 +1,15 @@
+<div class="add-product-title">
+  <span ng-show="$ctrl.stateName === 'addProduct'">Add Product</span>
+  <span ng-hide="$ctrl.stateName === 'addProduct'">Edit Product</span>
+</div>
+<div class="add-product">
+  <form ng-submit="$ctrl.submitForm();">
+    <img class="add-product__image" ng-src="{{$ctrl.product.image || 'https://image.ibb.co/bYFDgk/gallery.png'}}" ng-click="$ctrl.loadProductDetails();"><br />
+    <label>Name: </label><input required type="text" ng-model="$ctrl.product.name" /><br />
+    <label>Description: </label><textarea name="name" rows="8" cols="80" ng-model="$ctrl.product.description"></textarea><br />
+    <div class="add-product__submit-btn-container">
+      <button type="submit" name="button" ng-show="$ctrl.stateName === 'addProduct'">Save Product</button>
+      <button type="submit" name="button" ng-hide="$ctrl.stateName === 'addProduct'">Update Product</button>
+    </div>
+  </form>
+</div>
